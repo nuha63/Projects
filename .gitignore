@@ -13,6 +13,10 @@
 migrate_working_dir/
 # Sensitive Data
 .env
+
+# Local App Development folder - keep only on local machine
+App Development/
+
 # IntelliJ related
 *.iml
 *.ipr
