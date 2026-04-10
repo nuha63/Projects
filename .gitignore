@@ -13,10 +13,6 @@
 migrate_working_dir/
 # Sensitive Data
 .env
-
-# Local App Development folder - keep only on local machine
-App Development/
-
 # IntelliJ related
 *.iml
 *.ipr
@@ -48,3 +44,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Exclude bdappsApi folder and PHP files
+/bdappsApi/
+*.php
