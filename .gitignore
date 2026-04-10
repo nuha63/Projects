@@ -1,0 +1,67 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Sensitive data
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Build output
+/build/
+**/build/
+
+# Symbolication / obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android / Gradle
+.gradle/
+android/local.properties
+**/.cxx/
+key.properties
+**/*.keystore
+**/*.jks
+
+# Python backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+.Python
+venv/
+env/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local logs
+flutter_run_verbose.log
+
+# EXCEPTION: Include APK files for distribution
+!build/app/outputs/flutter-apk/app-debug.apk
+!build/app/outputs/flutter-apk/app-debug.apk.sha1
