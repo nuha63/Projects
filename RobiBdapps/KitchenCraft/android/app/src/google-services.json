@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "349423693800",
+    "project_id": "kcraft-3141d",
+    "storage_bucket": "kcraft-3141d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349423693800:android:9f527945fe8c7e90717e5d",
+        "android_client_info": {
+          "package_name": "com.kitchencraft2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349423693800-8ovpqta0fftno6lp7iai2f8p38q16830.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kitchencraft2",
+            "certificate_hash": "64a4a491475b0881e09417010282238e0cbd62c7"
+          }
+        },
+        {
+          "client_id": "349423693800-kbi6t1v5a12teqlh6f9nu6sjasjgl252.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtgWb1ptYosUrpN9qb5aZy0K_bPhAgIaA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349423693800-kbi6t1v5a12teqlh6f9nu6sjasjgl252.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

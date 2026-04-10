@@ -3,136 +3,44 @@
 *.log
 *.pyc
 *.swp
-*~
 .DS_Store
-Thumbs.db
-
-# IDE
-.idea/
-.vscode/
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+# Sensitive Data
+.env
+# IntelliJ related
 *.iml
 *.ipr
 *.iws
+.idea/
 
-# Flutter / Dart
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-**/doc/api/
-**/ios/Flutter/.last_build_id
-
-# Build output (but keep APK)
-/build/**
-!RobiBdapps/KitchenCraft/build/app/outputs/flutter-apk/*.apk
-!RobiBdapps/KitchenCraft/build/app/outputs/flutter-apk/*.apk.sha1
-
-# BDApps API - Keep locally but don't push to GitHub
-RobiBdapps/KitchenCraft/bdappsApi/
-
-# Symbolication / obfuscation
-app.*.symbols
-app.*.map.json
-
-# Android / Gradle
-.gradle/
-android/local.properties
-**/.cxx/
-key.properties
-**/*.keystore
-**/*.jks
-
-# Python backend
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg
-*.egg-info/
-dist/
-.Python
-venv/
-env/
-ENV/
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Environment
-.env
-.env.local
-
-# Sensitive data
-credentials.json
-google-services.json
-
-# Local logs
-flutter_run_verbose.log
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-*~
-.DS_Store
-Thumbs.db
-
-# Sensitive data
-.env
-.env.local
-
-# IDE
-.idea/
-.vscode/
-*.iml
-*.ipr
-*.iws
-
-# Flutter / Dart
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-**/doc/api/
-**/ios/Flutter/.last_build_id
-
-# Build output
 /build/
-**/build/
 
-# Symbolication / obfuscation
+# Symbolication related
 app.*.symbols
+
+# Obfuscation related
 app.*.map.json
 
-# Android / Gradle
-.gradle/
-android/local.properties
-**/.cxx/
-key.properties
-**/*.keystore
-**/*.jks
-
-# Python backend
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg
-*.egg-info/
-dist/
-.Python
-venv/
-env/
-ENV/
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Local logs
-flutter_run_verbose.log
-
-# EXCEPTION: Include APK files for distribution
-!build/app/outputs/flutter-apk/app-debug.apk
-!build/app/outputs/flutter-apk/app-debug.apk.sha1
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
