@@ -28,6 +28,9 @@ Thumbs.db
 !RobiBdapps/KitchenCraft/build/app/outputs/flutter-apk/*.apk
 !RobiBdapps/KitchenCraft/build/app/outputs/flutter-apk/*.apk.sha1
 
+# BDApps API - Keep locally but don't push to GitHub
+RobiBdapps/KitchenCraft/bdappsApi/
+
 # Symbolication / obfuscation
 app.*.symbols
 app.*.map.json
